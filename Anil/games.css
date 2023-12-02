@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+img{
+width:440px;
+height:400px;
+}
+.main{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 2fr);
+    grid-column: 3 / 3;
+}

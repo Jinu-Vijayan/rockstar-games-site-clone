@@ -35,13 +35,14 @@ body{
 }
 
 #home-hero-img img{
-    width:95%;
+    width:100%;
 }
 
 #home-hero-desc{
     display: flex;
     flex-direction: column;
     padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 #home-hero-text{
@@ -235,4 +236,193 @@ body{
 #home-featured-games-cards-container div img{
     width:100%;
     border-radius: 0.625rem;
+}
+
+@media screen and (max-width:1235px){
+    .home-view-more{
+        width: 9%;
+    }
+}
+
+@media screen and (max-width:1124px) {
+    #home-hero{
+        flex-direction: column;
+    }
+
+    #home-hero-img img{
+        margin-bottom:2rem;
+    }
+
+    #home-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom:5rem;
+    }
+
+    #home-hero-desc-selector-buttons{
+        width:365px;
+        margin-bottom:3rem;
+    }
+
+    #home-newswire{
+        padding-top:6rem;
+    }
+
+    #home-featured-games{
+        padding-bottom:4rem;
+    }
+}
+
+@media screen and (max-width:1098px){
+    .home-view-more{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:1023px){
+    #home-newswire-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #home-featured-games-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:989px){
+    .home-view-more{
+        width: 11%;
+    }
+}
+
+@media screen and (max-width:962px){
+    #home-hero-text>div{
+        width:60%;
+    }
+}
+
+@media screen and (max-width:898px){
+    .home-view-more{
+        width: 12%;
+    }
+}
+
+@media screen and (max-width:824px){
+    .home-view-more{
+        width: 13%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home-view-more{
+        width: 14%;
+    }
+
+    #home-newswire-card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:767px){
+    #home-hero-desc-selector-buttons{
+        width: 150px;
+    }
+
+    #home-hero-desc-selector-buttons div{
+        height:2px;
+    }
+}
+
+@media screen and (max-width:706px){
+    .home-view-more{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:696px) {
+    #home-hero-text>div{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:659px){
+    .home-view-more{
+        width: 17%;
+    }
+}
+
+@media screen and (max-width:581px){
+    .home-view-more{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:696px) {
+    #home-hero-text>div{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:556px) {
+    #home-hero-text{
+        flex-direction: column;
+    }
+
+    #home-hero-text>div{
+        width: 100%;
+    }
+
+    #home-hero-text-button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:525px){
+    .home-view-more{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:494px){
+    .home-view-more{
+        width: 22%;
+    }
+}
+
+@media screen and (max-width:449px){
+    .home-view-more{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:412px){
+    .home-view-more{
+        width: 26%;
+    }
+}
+
+@media screen and (max-width:381px){
+    .home-view-more{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:353px){
+    .home-view-more{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:329px){
+    .home-view-more{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:309px){
+    .home-view-more{
+        width: 36%;
+    }
 }

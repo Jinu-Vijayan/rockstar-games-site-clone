@@ -1,0 +1,102 @@
+
+@import url(https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display);
+
+:root{
+    --background-color:#020202;
+    --font-color1:#dddcdc;
+    --font-color2:#e8e8e8;
+    --button-color1:#fcaf17;
+    --button-color:#e19808;
+    --icon-color:#f9f9f9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+    
+}
+body{
+    width: 100%;
+}
+.navbar_navbar{
+    display: flex;
+    background-color: var(--background-color);
+    font-size: 20px;
+    padding: 0 80px;
+    font-weight: 400;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.navbar_nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color:var(--font-color1);
+    width: 806px;
+    margin-left: 400px;
+    
+}
+
+.navbar_nav-list li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 3px 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Helvetica Now Display", sans-serif;
+    
+}
+.navbar_nav-list li a{
+    text-decoration: none;
+    color: var(--font-color1);
+    font-family: "Helvetica Now Display",sans-serif;
+}
+
+.navbar_nav-list li img{
+    padding-top: 5px;
+    padding-left: 5px;
+    display: inline-block;
+    position: absolute;
+
+}
+ .abc{
+ width: 23px;;
+}
+
+.navbar_nav-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+.navbar_nav-logo{
+   margin-left: 13px;
+    width: 500px;
+    height: 200px;
+    margin-top: 1.6rem;
+}
+
+.navbar_nav-logo img{
+    height: 30px;
+    width: 30px;
+}
+
+.navbar_nav-end .nav-button{
+    width: 150px;
+    height: 37px;
+    background-color: #fcaf17;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}

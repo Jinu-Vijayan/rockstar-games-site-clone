@@ -1,0 +1,428 @@
+@import url(./assets/fonts/helvetica_now_text/stylesheet.css);
+@import url(./assets/fonts/helvetica_now_display/stylesheet.css);
+
+:root{
+    --background-color1:black;
+    --background-color2:#0b0b0b;
+    --button-background-color1:#fcaf17;
+    --text-color-when-hovering-on-button:black;
+    --text-color1:white;
+    --text-color2:#e8e8e8;
+    --text-color3:#939393;
+    --newswire-card-text-color1:#f9f9f9;
+    --newswire-card-text-color2:#979797;
+    --font-type1:'Helvetica Now Text';
+    --font-type2:'Helvetica Now Display';
+    --border-color1:#282828;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+}
+
+#home-hero{
+    background-color:var(--background-color1);
+    display:flex;
+    justify-content: center;
+    color: var(--text-color1);
+}
+
+#home-hero-img img{
+    width:100%;
+}
+
+#home-hero-desc{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+#home-hero-text{
+    display: flex;
+    flex-direction:column;
+    height:80%;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+#home-hero-text-para{
+    font-family: var(--font-type1),sans-serif;
+    font-weight: bold;
+    color:var(--text-color2);
+    margin-bottom: 2vh;
+    font-size:0.9375rem;
+    cursor: pointer;
+}
+
+#home-hero-text-heading{
+    font-family: var(--font-type2),sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 4vh;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#home-hero-text-button{
+    padding:1.25rem 3.75rem;
+    border-radius: 0.3125rem;
+    color: var(--text-color1);
+    background-color: transparent;
+    border: 2px solid var(--text-color1);
+    font-family: var(--font-type1),sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#home-hero-text-button:hover{
+    border: 2px solid var(--button-background-color1);
+    background-color: var(--button-background-color1);
+    color: var(--text-color-when-hovering-on-button);
+}
+
+#home-hero-desc-selector-buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1vw;
+}
+
+#home-hero-desc-selector-buttons div{
+    width:100%;
+    height:4px;
+    background-color: var(--text-color3);
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+#home-hero-desc-selector-buttons #home-hero-desc-selector-button1{
+    background-color: white;
+}
+
+/* Styling for the newswire section */
+
+.container{   /* this is used for both news wire and featured games*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    background-color: var(--background-color2);
+}
+
+#home-newswire-container{
+    width:90%;
+}
+
+.home-headings{
+    color: var(--text-color1);
+    text-decoration: none;
+    font-family: var(--font-type2),sans-serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+#home-newswire-card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.5rem;
+    justify-content: center;
+    color: var(--newswire-card-text-color1);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.home-newswire-card{
+    border:1px solid var(--border-color1);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--background-color1);
+}
+
+.home-newswire-card .home-newswire-card-image{
+    width:100%;
+}
+
+.home-newswire-card .home-newswire-card-image img{
+    width:100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.home-newswire-card-desc{
+    padding:2.5rem 1.875rem;
+    border-radius:0 0 10px 10px;
+}
+
+.home-newswire-card-desc p{
+    margin-bottom:1rem;
+    display: flex;
+    gap:1rem;
+    font-family: var(--font-type1),sans-serif;
+    font-size: 0.9375rem;
+}
+
+.home-newswire-card-desc p span{
+    color: var(--newswire-card-text-color2);
+}
+
+.home-newswire-card-desc h3{
+    font-size: 1.5625rem;
+    font-family: var(--font-type2),sans-serif;
+}
+
+.home-view-more{
+    color: var(--text-color2);
+    font-family: var(--font-type1),sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+    width:8%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    padding-top:calc(4px + 0.3rem);
+}
+.home-view-more span{
+    margin-bottom:0.3rem;
+}
+
+.home-view-more::after{
+    content: "";
+    background-color: var(--button-background-color1);
+    width: 90%;
+    height: 4px;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    bottom:0;
+    z-index: 1;
+}
+
+.home-view-more:hover{
+    background-color: var(--button-background-color1);
+    color: black;
+}
+
+/* Styling for the featured games section */
+
+#home-featured-games{
+    background-color: var(--background-color2)
+}
+
+#home-fetured-games-container{
+    width:90%;
+}
+
+#home-featured-games-cards-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 5vh;
+}
+
+#home-featured-games-cards-container div img{
+    width:100%;
+    border-radius: 0.625rem;
+}
+
+@media screen and (max-width:1235px){
+    .home-view-more{
+        width: 9%;
+    }
+}
+
+@media screen and (max-width:1124px) {
+    #home-hero{
+        flex-direction: column;
+    }
+
+    #home-hero-img img{
+        margin-bottom:2rem;
+    }
+
+    #home-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom:5rem;
+    }
+
+    #home-hero-desc-selector-buttons{
+        width:365px;
+        margin-bottom:3rem;
+    }
+
+    #home-newswire{
+        padding-top:6rem;
+    }
+
+    #home-featured-games{
+        padding-bottom:4rem;
+    }
+}
+
+@media screen and (max-width:1098px){
+    .home-view-more{
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:1023px){
+    #home-newswire-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #home-featured-games-cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:989px){
+    .home-view-more{
+        width: 11%;
+    }
+}
+
+@media screen and (max-width:962px){
+    #home-hero-text>div{
+        width:60%;
+    }
+}
+
+@media screen and (max-width:898px){
+    .home-view-more{
+        width: 12%;
+    }
+}
+
+@media screen and (max-width:824px){
+    .home-view-more{
+        width: 13%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .home-view-more{
+        width: 14%;
+    }
+
+    #home-newswire-card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:767px){
+    #home-hero-desc-selector-buttons{
+        width: 150px;
+    }
+
+    #home-hero-desc-selector-buttons div{
+        height:2px;
+    }
+}
+
+@media screen and (max-width:706px){
+    .home-view-more{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:696px) {
+    #home-hero-text>div{
+        width:50%;
+    }
+}
+
+@media screen and (max-width:659px){
+    .home-view-more{
+        width: 17%;
+    }
+}
+
+@media screen and (max-width:581px){
+    .home-view-more{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:696px) {
+    #home-hero-text>div{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:556px) {
+    #home-hero-text{
+        flex-direction: column;
+    }
+
+    #home-hero-text>div{
+        width: 100%;
+    }
+
+    #home-hero-text-button{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:525px){
+    .home-view-more{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:494px){
+    .home-view-more{
+        width: 22%;
+    }
+}
+
+@media screen and (max-width:449px){
+    .home-view-more{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:412px){
+    .home-view-more{
+        width: 26%;
+    }
+}
+
+@media screen and (max-width:381px){
+    .home-view-more{
+        width: 28%;
+    }
+}
+
+@media screen and (max-width:353px){
+    .home-view-more{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:329px){
+    .home-view-more{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:309px){
+    .home-view-more{
+        width: 36%;
+    }
+}

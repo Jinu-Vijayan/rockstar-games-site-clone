@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b0b0b;
+}
+.newswire-firstsection{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.newswire-mainlogo img{
+    width: 990px;
+    height: 550px;
+    --aspect-ratio: 16/9;
+    background-size: cover;
+    position: relative;
+}
+.newswire-righttext{
+    padding: 80px 40px;
+    width: 325px;
+    height: 550px;
+    display: flex;
+    
+}
+.gametext{
+    color: #e8e8e8;
+    height: 24px;
+    width: 135px;
+    padding-right: 15px;
+    font-size: var(--font-size-2);
+    font-weight: 900;
+    font-family: "Helvetica Now Text";
+    
+}
+.newswire-righttext span{
+    color: #e8e8e8;
+    height: 24px;
+    width: 190px;
+    opacity: .65;
+    font-weight: 400;
+}
+.Trailertext{
+    width: 290px;
+    height: 208px;
+    font: 40px "Helvetica Now Display Bold";
+    color: #ffffff;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.newswire-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.newswire-card {
+    margin-top: 40px;
+    width: 410px;
+    height: 620px;
+    border: 1px solid #282828;
+    border-radius: 8px;
+    color: black;
+    margin-inline: 15px;
+}
+
+.newswire-box img {
+    width: 408px;
+    height: 390px;
+    border-top-right-radius:6px;
+    border-top-left-radius:6px;
+}
+
+.newswire-cardbody {
+    width: 380px;
+    height: 179px;
+    padding: 40px 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 260px;
+}
+
+.brand, .date {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: "Helvetica Now Text";
+    color: #e8e8e8;
+}
+
+.date span {
+    color: #e8e8e8;
+    opacity: 0.65;
+    font-weight: 400;
+}
+
+.descriptiontitle {
+    font: 25px "Helvetica Now Display Bold";
+    width: 320px;
+    height: auto;
+    color: #ffffff;
+    font-weight: bold;
+}

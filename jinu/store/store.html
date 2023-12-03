@@ -4,14 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockstar Store| Official Store for GTA,Red Dead Redemption| ...</title>
-    <link rel="shortcut icon" href="./assets/images/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../home/assets/images/favicon-16x16.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/ecf30af376.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./store.css">
 </head>
 <body>
     <header>
-        <div id="store-header-right">
+        <div id="store-header-left">
             <div id="store-logo">
-                <img src="" alt="">
+                <div class="show-on-smaller-screen">
+                    <span class="material-symbols-outlined">
+                        menu
+                        </span>
+                </div>
+                <img src="./assets/images/rockstar_logo.avif" alt="rockstar_logo">
+            </div>
+            <nav class="hidden">
+                <ul>
+                    <li>Games <i class="fa-solid fa-angle-down"></i>
+                    </li>
+                    <li>Collections <i class="fa-solid fa-angle-down"></i></li>
+                    <li>Gear</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="store-header-right">
+            <form action="">
+                <label for="store-search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                <input type="text" name="search" id="store-search" placeholder="Search" class="hidden">
+            </form>
+            <span class="material-symbols-outlined">
+                shopping_cart
+                </span>
+            <p class="hidden">Sign In</p>
+            <div class="show-on-smaller-screen">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
             </div>
         </div>
     </header>

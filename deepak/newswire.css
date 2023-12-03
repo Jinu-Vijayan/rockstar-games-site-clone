@@ -105,9 +105,52 @@ body{
 }
 
 .descriptiontitle {
-    font: 25px "Helvetica Now Display Bold";
-    width: 320px;
+    font: 25px "AG_Helvetica Bold";
+    width: 296px;
     height: auto;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bolder;
+    line-height: 1.6rem;
+}
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 30px;
+    height: 32px;
+}
+
+.morestories button {
+    border: none;
+    position: relative;
+    color: #ffffff;
+    font: 20px "Helvetica Now Text";
+    width: 121px;
+    height: 32px;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.morestories button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #fcaf17;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: transform 0.5s ease-in-out;
+}
+
+.morestories button:hover {
+    color: #0b0b0b;
+    background-color: #fcaf17;
+}
+
+.morestories button:hover::before {
+    transform: scaleX(1);
 }

@@ -275,6 +275,10 @@ nav ul li i{
     margin-bottom: 2rem;
 }
 
+.store-product-games-card-container{
+    grid-template-columns: repeat(4,1fr);
+}
+
 .store-product-card{
     border-radius: 10px;
     border: 1px solid var(--border-color1);
@@ -485,5 +489,62 @@ footer{
 
     #store-hero-section-desc{
         width: 100%;
+    }
+
+    #store-hero-section-desc button{
+        align-self: center;
+        margin-bottom: 5rem;
+    }
+
+    .store-product-card-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .store-product-hero-section{
+        flex-direction: column;
+    }
+
+    .store-product-hero-section-desc{
+        order: 1;
+        width: 100%;
+        align-items: center;
+    }
+
+    .store-product-hero-section-image {
+        width: 100%;
+    }
+
+    .store-product-hero-section-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .store-product-hero-section-desc-bottom{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:855.5px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #store-footer-links ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:610.5px){
+    .store-product-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:396.5px) {
+    #store-hero-section-desc button {
+        width:100%;
     }
 }

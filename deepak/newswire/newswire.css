@@ -127,6 +127,7 @@ body{
     color: #ffffff;
     font-weight: bolder;
     line-height: 1.6rem;
+    margin-top: 13px;
 }
 .area {
     display: flex;

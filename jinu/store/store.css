@@ -100,7 +100,7 @@ nav ul li i{
     align-items: center;
 }
 
-form{
+.store-header-form{
     background-color: var(--background-color2);
     display: flex;
     height: 100%;
@@ -111,11 +111,11 @@ form{
     gap:1rem;
 }
 
-form label{
+.store-header-form label{
     margin-left: 2rem;
 }
 
-form input{
+.store-header-form input{
     background-color: transparent;
     outline: none;
     border: none;
@@ -124,7 +124,7 @@ form input{
     color: var(--normal-text-color);
 }
 
-form input::placeholder{
+.store-header-form input::placeholder{
     color: #595d63;
     font-family: var(--font-type1),sans-serif;
     font-weight: bold;
@@ -399,6 +399,62 @@ form input::placeholder{
     margin-top: -5rem;
 }
 
+footer{
+    background-color: var(--background-color1);
+    color: var(--normal-text-color);
+    font-family: var(--font-type1),sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 5rem;
+}
+
+#store-footer-rockstar-eagle-logo img{
+    width:80px;
+}
+
+#store-footer-links{
+    margin-bottom: 1rem;
+}
+
+#store-footer-links ul{
+    display: flex;
+    list-style: none;
+    font-size: 0.875rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#store-footer-links ul li a{
+    color: var(--normal-text-color);
+}
+
+#store-footer-logo-terms{
+    color: var(--text-color2);
+    font-weight: bold;
+    font-size: 0.87rem;
+}
+
+#store-footer-form {
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#store-footer-form:hover {
+    background-color: var(--border-color1);
+}
+
+#store-footer-form select{
+    background-color: transparent;
+    color: var(--normal-text-color);
+    border: none;
+}
+
+#store-footer-form select option{
+    background-color: var(--background-color2);
+}
+
 
 @media screen and (max-width:1024px) {
     .show-on-smaller-screen{
@@ -409,8 +465,9 @@ form input::placeholder{
         display: none;
     }
 
-    form{
+    .store-header-form{
         width: unset;
         background-color: transparent;
+        border: transparent;
     }
 }

@@ -236,6 +236,164 @@ form input::placeholder{
     object-position: top;
 }
 
+/* Styling for the products section */
+
+.store-product-section{
+    width:100%;
+    background-color: var(--background-color2);
+    color: var(--normal-text-color);
+    padding-top:5rem;
+}
+
+.store-product-container{
+    width: 90%;
+    margin: auto;
+}
+
+.store-product-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.store-product-title h2{
+    font-family: var(--font-type2),sans-serif;
+    font-size: 2rem;
+}
+
+.store-product-title p{
+    font-family: var(--font-type1),sans-serif;
+    cursor: pointer;
+}
+
+.store-product-card-container{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.store-product-card{
+    border-radius: 10px;
+    border: 1px solid var(--border-color1);
+    transition: 0.3s;
+}
+
+.store-product-card:hover{
+    transform: translateY(-0.7rem);
+}
+
+.store-product-card-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.store-product-card-desc{
+    padding:0.5rem;
+    font-family: var(--font-type1),sans-serif;
+}
+
+.store-product-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.store-product-selector div{
+    width: 3%;
+    height: 4px;
+    border-radius: 0.825rem;
+    background-color: var(--selector-color);
+}
+
+.store-product-selector div:first-of-type{
+    background-color: var(--normal-text-color);
+}
+
+
+.store-games-price{
+    margin: 1rem 0;
+}
+
+.store-product-device-icons{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    color: var(--text-color2);
+}
+
+.store-game-title{
+    margin-bottom: 2rem;
+}
+
+#store-game-title-last{
+    margin-bottom: 5rem;
+}
+
+#store-product-games{
+    padding-bottom:7rem;
+}
+
+.store-product-hero-section{
+    background-color: var(--background-color1);
+    display: flex;
+}
+
+.store-product-hero-section-desc{
+    width:40%;
+    color: var(--normal-text-color);
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.store-product-hero-section-logo{
+    width:100%;
+}
+
+.store-product-hero-section-logo img{
+    width:50%;
+}
+
+.store-product-hero-section-image{
+    width:60%;
+}
+
+.store-product-hero-section-image img{
+    width:100%;
+}
+
+.store-product-hero-section-desc-bottom{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.store-product-hero-section-desc-bottom p{
+    font-family: var(--font-type1),sans-serif;
+    color: var(--text-color2);
+}
+
+.store-product-hero-section-desc-bottom button{
+    width:fit-content;
+    padding:1rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--normal-text-color);
+    color: var(--normal-text-color);
+    font-family: var(--font-type2),sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
 @media screen and (max-width:1024px) {
     .show-on-smaller-screen{
         display: initial;

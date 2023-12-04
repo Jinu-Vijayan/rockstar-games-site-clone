@@ -141,7 +141,6 @@ nav ul li i{
     background-color: var(--background-color1);
     position: relative;
     display: flex;
-    /* height:calc(100vh - 72px); */
     color: var(--normal-text-color);
 }
 
@@ -456,7 +455,7 @@ footer{
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023.5px) {
     .show-on-smaller-screen{
         display: initial;
     }
@@ -469,5 +468,22 @@ footer{
         width: unset;
         background-color: transparent;
         border: transparent;
+    }
+
+    #store-hero-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #store-hero-section-desc{
+        order:1;
+    }
+
+    #store-hero-img{
+        width: 100%;
+    }
+
+    #store-hero-section-desc{
+        width: 100%;
     }
 }

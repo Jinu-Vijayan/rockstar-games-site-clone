@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.support-nav{
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+.support-icon{
+    width: 60px;
+    height: 60px;
+}
+.material-symbols-outlined{
+    text-align: left;
+    cursor: pointer;
+}
+
+.support-mainheading img{
+    justify-content: center;
+    width:156px;
+    height: auto;
+    margin-top: 5px;
+   
+}

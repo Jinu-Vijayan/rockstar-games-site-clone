@@ -333,6 +333,66 @@ form input::placeholder{
     margin-bottom: 5rem;
 }
 
+#store-product-games{
+    padding-bottom:7rem;
+}
+
+.store-product-hero-section{
+    background-color: var(--background-color1);
+    display: flex;
+}
+
+.store-product-hero-section-desc{
+    width:40%;
+    color: var(--normal-text-color);
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.store-product-hero-section-logo{
+    width:100%;
+}
+
+.store-product-hero-section-logo img{
+    width:50%;
+}
+
+.store-product-hero-section-image{
+    width:60%;
+}
+
+.store-product-hero-section-image img{
+    width:100%;
+}
+
+.store-product-hero-section-desc-bottom{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.store-product-hero-section-desc-bottom p{
+    font-family: var(--font-type1),sans-serif;
+    color: var(--text-color2);
+}
+
+.store-product-hero-section-desc-bottom button{
+    width:fit-content;
+    padding:1rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--normal-text-color);
+    color: var(--normal-text-color);
+    font-family: var(--font-type2),sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 
 @media screen and (max-width:1024px) {
     .show-on-smaller-screen{

@@ -7,14 +7,23 @@
     display: flex;
     height: 60px;
     width: 100%;
+    justify-content: space-between;
 }
 .support-icon{
     width: 60px;
-    height: 60px;
+    height: auto;
 }
 .material-symbols-outlined{
     text-align: left;
     cursor: pointer;
+    justify-self: center;
+    align-items: center;
+    padding: 30%;
+}
+.material-symbols-outlined:hover{
+    transform-origin: bottom;
+    transform: rotateY('90');
+    transform: scaleX(1.1);
 }
 
 .support-mainheading img{
@@ -22,5 +31,7 @@
     width:156px;
     height: auto;
     margin-top: 5px;
+    align-items: center;
+    padding-top: 8%;
    
 }

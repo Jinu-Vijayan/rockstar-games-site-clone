@@ -121,6 +121,7 @@ form input{
     border: none;
     height: 50%;
     width:80%;
+    color: var(--normal-text-color);
 }
 
 form input::placeholder{

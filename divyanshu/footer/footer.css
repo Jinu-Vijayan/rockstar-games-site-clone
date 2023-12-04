@@ -28,6 +28,7 @@ body {
 }
 .foot1-list{
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     height: 41px;
@@ -35,6 +36,9 @@ body {
     
 }
 
+.foot1-list ul {
+    display: flex;
+}
 .foot1-list li{
     list-style: none;
     padding-right:2rem;
@@ -139,6 +143,7 @@ option:hover {
 } 
 
 @media screen and (max-width:1024px) {
+    
     .foot2-social{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -166,6 +171,10 @@ option:hover {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         align-items: flex-start;
         padding-bottom: 180px;
+    }
+    .foot1-list ul {
+        display: flex;
+        flex-direction: column;
     }
 
     .foot{
@@ -199,6 +208,7 @@ option:hover {
         justify-content: space-between;
         margin-bottom: 10px;
     }
+    
     .foot1-list li a{
         height: 25px;
         display: block;

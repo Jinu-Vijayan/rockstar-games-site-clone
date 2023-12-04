@@ -236,6 +236,76 @@ form input::placeholder{
     object-position: top;
 }
 
+/* Styling for the products section */
+
+.store-product-section{
+    width:100%;
+    background-color: var(--background-color2);
+    color: var(--normal-text-color);
+    padding-top:5rem;
+}
+
+.store-product-container{
+    width: 90%;
+    margin: auto;
+}
+
+.store-product-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.store-product-title h2{
+    font-family: var(--font-type2),sans-serif;
+    font-size: 2rem;
+}
+
+.store-product-title p{
+    font-family: var(--font-type1),sans-serif;
+    cursor: pointer;
+}
+
+.store-product-card-container{
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.store-product-card{
+    border-radius: 10px;
+    border: 1px solid var(--border-color1);
+}
+
+.store-product-card-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.store-product-card-desc{
+    padding:0.5rem;
+    font-family: var(--font-type1),sans-serif;
+}
+
+.store-product-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.store-product-selector div{
+    width: 3%;
+    height: 4px;
+    border-radius: 0.825rem;
+    background-color: var(--selector-color);
+}
+
+
+
 @media screen and (max-width:1024px) {
     .show-on-smaller-screen{
         display: initial;

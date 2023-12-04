@@ -243,6 +243,7 @@ form input::placeholder{
     background-color: var(--background-color2);
     color: var(--normal-text-color);
     padding-top:5rem;
+    padding-bottom: 5rem;
 }
 
 .store-product-container{
@@ -334,7 +335,7 @@ form input::placeholder{
 }
 
 #store-product-games{
-    padding-bottom:7rem;
+    margin-top:-5rem;
 }
 
 .store-product-hero-section{

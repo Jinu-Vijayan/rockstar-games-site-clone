@@ -121,6 +121,7 @@ form input{
     border: none;
     height: 50%;
     width:80%;
+    color: var(--normal-text-color);
 }
 
 form input::placeholder{
@@ -243,6 +244,7 @@ form input::placeholder{
     background-color: var(--background-color2);
     color: var(--normal-text-color);
     padding-top:5rem;
+    padding-bottom: 5rem;
 }
 
 .store-product-container{
@@ -277,6 +279,11 @@ form input::placeholder{
 .store-product-card{
     border-radius: 10px;
     border: 1px solid var(--border-color1);
+    transition: 0.3s;
+}
+
+.store-product-card:hover{
+    transform: translateY(-0.7rem);
 }
 
 .store-product-card-image img{
@@ -304,6 +311,93 @@ form input::placeholder{
     background-color: var(--selector-color);
 }
 
+.store-product-selector div:first-of-type{
+    background-color: var(--normal-text-color);
+}
+
+
+.store-games-price{
+    margin: 1rem 0;
+}
+
+.store-product-device-icons{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    color: var(--text-color2);
+}
+
+.store-game-title{
+    margin-bottom: 2rem;
+}
+
+#store-game-title-last{
+    margin-bottom: 5rem;
+}
+
+#store-product-games{
+    margin-top:-5rem;
+}
+
+.store-product-hero-section{
+    background-color: var(--background-color1);
+    display: flex;
+}
+
+.store-product-hero-section-desc{
+    width:40%;
+    color: var(--normal-text-color);
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.store-product-hero-section-logo{
+    width:100%;
+}
+
+.store-product-hero-section-logo img{
+    width:50%;
+}
+
+.store-product-hero-section-image{
+    width:60%;
+}
+
+.store-product-hero-section-image img{
+    width:100%;
+}
+
+.store-product-hero-section-desc-bottom{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.store-product-hero-section-desc-bottom p{
+    font-family: var(--font-type1),sans-serif;
+    color: var(--text-color2);
+}
+
+.store-product-hero-section-desc-bottom button{
+    width:fit-content;
+    padding:1rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid var(--normal-text-color);
+    color: var(--normal-text-color);
+    font-family: var(--font-type2),sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.negative-top-margin{
+    margin-top: -5rem;
+}
 
 
 @media screen and (max-width:1024px) {

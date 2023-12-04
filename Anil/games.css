@@ -2,12 +2,24 @@ body{
     background-color: rgba(0, 0, 0, 0.9);
 }
 img{
-width:440px;
-height:400px;
+width:100%;
+height:auto;
 }
 .main{
+    margin: 0px 40px;
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 2fr);
-    grid-column: 3 / 3;
+    gap: 20px;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+@media screen and (max-width:1180px){
+    .main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:810px){
+    .main{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

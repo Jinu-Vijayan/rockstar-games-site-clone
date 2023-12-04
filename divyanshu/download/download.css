@@ -1,0 +1,278 @@
+@import url(https://db.onlinewebfonts.com/c/0976a2619014c5855690b7509fab4c6e?family=Helvetica+Now+Display);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b0b0b;
+    
+}
+
+main{
+    padding: 80px;
+}
+.download-rdr-main{
+    display: flex;
+    width: 100%;
+    height: 747px;
+    background: #000000;
+    overflow:hidden;
+    margin: 0 0 160px 0;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.download-rdr-img{
+    display: block;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+.download-rdr-text{
+    width: 600px;
+    height: 486px;
+    display: grid;
+    padding-top: 60px;
+    font-family: "Helvetica Now Display", sans-serif;
+    padding-right: 50px;
+    
+}
+.download-rdr-text h2{
+    display: block;
+    width:644px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 0.5rem;
+    line-height: 60px;
+    color: #ffffff;
+}
+.download-rdr-text p{
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #e8e8e8;
+    height: 352px;
+    width: 600px;
+}
+.download-rdr-text button{
+    line-height: 20px;
+    width: 283px;
+    height: 61px;
+    padding: 20x 60px;
+    background-color: transparent;
+    color: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-top: 2rem;
+    transition: all 0.2s ease 0s;
+}
+
+.download-rdr-text button:hover{
+    background-color: #FCAF17;
+    color: #000000;
+    border: none;
+    
+}
+section{
+    display: block;
+}
+.feature-img img{
+    width: 359px;
+    height: 172px;
+    border-radius: 10px;
+}
+
+.download-feature{
+    width: 1528px;
+    height: 235px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.feature-text{
+    display: block;
+    color: white;
+    font-family: "Helvetica Now Display", sans-serif;
+    height: 22px;
+    width: 359px;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 10px;
+}
+
+.feature{
+    color: #ffffff;
+    font-family: "Helvetica Now Display", sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+    height: 39px;
+    width: 1528px;
+}
+
+.download-games{
+    width: 1528px;
+    height: 516px;
+    margin-top: 70px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.games-img img{
+    height: 443px;
+    width: 359px;
+    border-radius: 10px;
+}
+.games{
+    display: grid;
+    color: #ffffff;
+    font-family: "Helvetica Now Display", sans-serif;
+    font-size: 30px;
+    height: 39px;
+    width: 1528px;
+    padding-top: 100px;   
+}
+
+.games-selector select{
+    width: 359px;
+    height: 53px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ffffff underfiend;
+    background-color: #0b0b0b;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Helvetica Now Display", sans-serif;
+    outline: none;
+}
+
+.button-games{
+    margin-top: 50px;
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.button-games button {
+    border: none;
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Helvetica Now Display", sans-serif;
+    width: 71px;
+    height: 32px;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    border-bottom: 4px solid #fcaf17;
+}
+
+.button-games button:hover{
+    background-color: #fcaf17;
+    border-radius: 4px;
+    color: #0b0b0b;
+    transform-origin: bottom;
+    transition: 0.5s;
+    transform: scaleX(1.01);
+    width: 85px;
+}
+
+.download-apps{
+    width: 1528px;
+    height: 432x;
+    margin-top: 70px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.apps-img img{
+    height: 359px;
+    width: 359px;
+    border-radius: 10px;
+}
+.apps{
+    display: grid;
+    color: #ffffff;
+    font-family: "Helvetica Now Display", sans-serif;
+    font-size: 30px;
+    height: 39px;
+    width: 1528px;
+    padding-top: 100px;   
+}
+
+.apps-selector select{
+    width: 359px;
+    height: 53px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ffffff underfiend;
+    background-color: #0b0b0b;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Helvetica Now Display", sans-serif;
+    outline: none;
+}
+
+.download-misce{
+    width: 1528px;
+    height: 359x;
+    margin-top: 70px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap:50px;
+    
+    
+}
+
+.misce-img img{
+    height: 359px;
+    width: 359px;
+    border-radius: 10px;
+}
+.misce{
+    display: grid;
+    color: #ffffff;
+    font-family: "Helvetica Now Display", sans-serif;
+    font-size: 30px;
+    height: 39px;
+    width: 1528px;
+    padding-top: 100px;   
+}
+
+.misce-text{
+    width: 359px;
+    height: 53px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ffffff underfiend;
+    background-color: #0b0b0b;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Helvetica Now Display", sans-serif;
+    outline: none;
+}

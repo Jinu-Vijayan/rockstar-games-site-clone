@@ -1,0 +1,1 @@
+fetch("../../divyanshu/footer/footer.html").then(res=>res.text()).then(data=>document.getElementById("home-footer").innerHTML=data);

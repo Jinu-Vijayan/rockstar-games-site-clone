@@ -277,6 +277,11 @@ form input::placeholder{
 .store-product-card{
     border-radius: 10px;
     border: 1px solid var(--border-color1);
+    transition: 0.3s;
+}
+
+.store-product-card:hover{
+    transform: translateY(-0.7rem);
 }
 
 .store-product-card-image img{
@@ -304,6 +309,29 @@ form input::placeholder{
     background-color: var(--selector-color);
 }
 
+.store-product-selector div:first-of-type{
+    background-color: var(--normal-text-color);
+}
+
+
+.store-games-price{
+    margin: 1rem 0;
+}
+
+.store-product-device-icons{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    color: var(--text-color2);
+}
+
+.store-game-title{
+    margin-bottom: 2rem;
+}
+
+#store-game-title-last{
+    margin-bottom: 5rem;
+}
 
 
 @media screen and (max-width:1024px) {

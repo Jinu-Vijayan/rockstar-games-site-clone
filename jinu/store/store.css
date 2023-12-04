@@ -221,6 +221,9 @@ form input::placeholder{
     border-radius: 10px;
 }
 
+#store-hero-section-selectors div:hover{
+    cursor: pointer;
+}
 
 #store-hero-img{
     width:65%;

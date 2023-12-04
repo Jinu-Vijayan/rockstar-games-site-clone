@@ -395,6 +395,10 @@ form input::placeholder{
     font-size: 1rem;
 }
 
+.negative-top-margin{
+    margin-top: -5rem;
+}
+
 
 @media screen and (max-width:1024px) {
     .show-on-smaller-screen{

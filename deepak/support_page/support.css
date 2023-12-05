@@ -1,41 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.support-nav{
+
+.support-nav {
     display: flex;
     height: 60px;
     width: 100%;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-left: 0%;
     margin-right: 0%;
 }
-.support-icon{
+
+.support-icon {
     width: 60px;
     height: auto;
 }
-.material-symbols-outlined{
+
+.material-symbols-outlined {
     text-align: left;
     cursor: pointer;
     justify-self: center;
     align-items: center;
     padding: 30%;
-    
+
 }
-.support .material-symbols-outlined:hover{
+
+.support .material-symbols-outlined:hover {
     transform: scaleX(1.3);
 }
 
-.support-mainheading{
+.support-mainheading {
     justify-content: center;
-    width:10%;
-    height:100%;
-   align-self: center;
-  
-   
+    width: 18.5%;
+    height: 99%;
+    align-self: center;
+
+
 }
-.support-mainheading img{
+
+.support-mainheading img {
     width: 100%;
     height: 100%;
     justify-self: center;
@@ -43,146 +48,180 @@
 }
 
 
-.rightsidelink{
+.rightsidelink {
     background-color: #000000;
-    height:70%;
+    height: 70%;
     align-self: center;
     margin-right: 1%;
     cursor: pointer;
 
 }
-.support-sigin{
+
+.support-sigin {
     font-size: 10px;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     color: #ffffff;
-   text-align: right;
-   padding: 5px;
+    text-align: right;
+    padding: 5px;
 }
-.support-sigin span{
-    color: #777777 ;
-    font-size:10px ;
+
+.support-sigin span {
+    color: #777777;
+    font-size: 10px;
 }
-.social{
+
+.social {
     width: 100%;
     padding: 2px;
 }
-a{
+
+a {
     width: 100%;
     text-decoration: none;
     color: #f0a000;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-    font-size:10px ;
+    font-size: 10px;
 }
-.mainhome{
-    width: 94%;
+
+.mainhome {
+    width: 100%;
     height: 100%;
-    margin: 0 auto;
-    padding: 30px 100px;
+    margin: 0 20px;
+    padding: 30px;
 }
-.home{
+
+.home {
     width: 100%;
     height: 100%;
 }
-.services{
-   width: 100%;
+
+.services {
+    width: 100%;
     justify-content: center;
     margin-bottom: 20px;
+    text-align: center;
+    
 }
+
 .services ul {
     display: flex;
     color: #11ca4c;
     list-style-position: inside;
     justify-content: center;
+    text-align: center;
 }
-.services ul li{
-    padding-inline: 10px;
+
+.services ul li {
+    padding-inline: 3px;
+    text-align: center;
 }
-.services ul a{
+
+.services ul a {
     text-decoration: none;
     color: #000000;
     font: 16px 'Neue Haas Grotesk Display Pro', sans-serif;
 }
-.services:hover{
+
+.services:hover {
     opacity: 0.7;
-}/* Centering the search bar */
-.support-searchbar {
+}
+.support-searchbarcontainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
     width: 100%;
     height: 44px;
-    margin-bottom: 30px;
+}
+
+/* Centering the search bar */
+.support-searchbar {
+    display: flex;
+    width: 60%;
+    height: 44px;
 }
 
 /* Adjusting the width of the input box */
 .support-searchbar input {
-    width: 45%;
+    width: 100%;
     height: 100%;
     padding-left: 20px;
     font-family: sans-serif;
     font-style: italic;
     font-size: 18px;
     outline: none;
-    box-sizing: border-box; /* Ensures padding and border are included in the total width */
+    box-sizing: border-box;
+    /* Ensures padding and border are included in the total width */
 }
-.support-searchicon{
+
+.support-searchicon {
     width: 10%;
     height: 44px;
 }
-.support-searchicon button{
+
+.support-searchicon button {
     width: 100%;
     height: 44px;
     background-color: #000000;
     border: none;
 }
-.support-searchicon button span{
+
+.support-searchicon button span {
     justify-self: center;
     align-self: center;
     box-sizing: border-box;
     padding: 0;
     color: #ffffff;
-    font-size: 32px;
+    /* font-size: 32px; */
 }
-.supportheader{
+
+.supportheader {
     color: #000000;
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 40px;
     font-weight: 100;
-    display:flex;
+    display: flex;
     justify-content: center;
-    
+    text-align: center;
+
 }
-.supportheader h3{
-    
+
+.supportheader h3 {
     box-sizing: border-box;
 }
-.support-grid{
+
+.support-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
     height: 100%;
-    column-gap: 15px;
-    row-gap: 20px;
+    column-gap: 3px;
+    row-gap: 3px;
 }
-.support-cards{
-    width: 100%;
+
+.support-cards {
+    width: 95%;
     height: 50%;
     transition: 0.2s all;
 }
-.support-cards img{
+
+.support-cards img {
     width: 100%;
 }
-.support-cards:hover{
+
+.support-cards:hover {
     transform: translateY(-8px);
 }
-.showallcontainer{
+
+.showallcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.showallbutton{
+
+.showallbutton {
     background-color: black;
     height: 49px;
     width: 18%;
@@ -191,6 +230,7 @@ a{
     outline: none;
     transition: 0.3s all;
 }
+
 .showallbutton i.material-symbols-outlined {
     font-size: 44px;
     align-self: center;
@@ -200,23 +240,27 @@ a{
     outline: none;
     color: #ffffff;
     background-color: black;
-    
+
 }
-.showallbutton:hover{
+
+.showallbutton:hover {
     opacity: 0.8;
     transform: translateY(-15px);
 
 }
-.supportfooter{
+
+.supportfooter {
     width: 100%;
     height: 100%;
     padding: 35px 30px 80px;
 }
-.supportflex{
+
+.supportflex {
     display: flex;
     margin-bottom: 95px;
     justify-content: space-between;
 }
+
 .language {
     display: flex;
     align-items: center;
@@ -231,10 +275,14 @@ a{
     margin-right: 7px;
     padding: 0;
 }
-.supportlinks a{
+
+.supportlinks a {
     font-size: 14px;
     margin: 0px 12px;
-}.supporticons1 {
+    color: #000000;
+}
+
+.supporticons1 {
     height: 24px;
     display: flex;
 }
@@ -242,15 +290,69 @@ a{
 .supporticons1 img,
 .supporticons1 i.fa-twitter {
     height: 100%;
-    width: auto; /* This allows the image to maintain its aspect ratio */
+    width: auto;
+    /* This allows the image to maintain its aspect ratio */
     font-size: 24px;
-    margin-inline: 15px ;
+    margin-inline: 15px;
 }
-.footerlogo{
+
+.footerlogo {
     background: url(footerlogo.svg);
     background-size: 100% 100%;
     height: 42px;
     width: 45px;
     margin: 0 auto;
 }
+@media screen and (max-width:991px){
+    .support-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width:768px){
+    .support-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .supportflex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .supportlinks {
+        order: 2;
+        margin-top: 15px; /* Adjust the margin as needed */
+    }
+    
+    .supporticons1 {
+        order: 1;
+        margin-bottom: 10px; /* Add margin between icons and links */
+    }
+    .supportlinks{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .language {
+        order: 3;
+    }
+    }
 
+@media screen and (max-width:624px){
+    .services ul{
+       flex-direction: column;
+       line-height: 20px;
+    }
+    
+   
+}
+@media screen and (max-width:624px){
+    .supportlinks{
+        font-size: 12px;
+    }
+    .mainhome{
+        padding: 0;
+        margin: 0;
+    }
+   
+}

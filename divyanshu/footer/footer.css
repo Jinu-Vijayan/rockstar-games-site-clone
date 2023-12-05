@@ -28,6 +28,7 @@ body {
 }
 .foot1-list{
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     height: 41px;
@@ -35,9 +36,11 @@ body {
     
 }
 
+.foot1-list ul {
+    display: flex;
+}
 .foot1-list li{
     list-style: none;
-    display: inline-block;
     padding-right:2rem;
 }
 .foot1-list li img {
@@ -76,7 +79,6 @@ option {
     color: #e8e8e8;
     border: 1px solid #161616;
     font-size: 15px;
-    width: 400px;
     height: 34px;
     line-height: 20px;
 }
@@ -141,6 +143,7 @@ option:hover {
 } 
 
 @media screen and (max-width:1024px) {
+    
     .foot2-social{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -168,6 +171,10 @@ option:hover {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         align-items: flex-start;
         padding-bottom: 180px;
+    }
+    .foot1-list ul {
+        display: flex;
+        flex-direction: column;
     }
 
     .foot{
@@ -201,6 +208,7 @@ option:hover {
         justify-content: space-between;
         margin-bottom: 10px;
     }
+    
     .foot1-list li a{
         height: 25px;
         display: block;
@@ -248,64 +256,31 @@ option:hover {
     }
 }
 
-@media screen and (max-width: 676px){
-    .foot1-list li{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
+@media screen and (max-width:472px) {
+
+    .foot1-select .lang{
+        font-size:12px;
+        height: 37px;
     }
     .foot1-list li a{
         height: 25px;
-        display: inli;
-        font-size: 16px;
+        display: block;
+        font-size: 12px;
         margin:0;
     }
-    .foot1-list li img {
-        width: 15px;
-        height: 15px;
-        margin-right: 110px;
-    }
-    .foot2-social{
-        font-size: 20px;
-        display: inline-block;
-    }
-    .foot2-list li{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        padding-bottom: 20px;
-    }
-    .foot2-social i {
-        width: 24px;
-        font-size: 15px;
-    }
-    
-}
-
-@media screen and (max-width:604) {
-   
     .foot3{
         height: 89px;
         width: 100%;
         display: grid;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
-
-    .foot3-name{
-        padding-left:50px;
-    }
-    .foot3-code{
-        padding-left: 80px;
+    .foot2-social{
+        margin-top: 80px;
     }
 }
 
-
 @media screen and (max-width:425px) {
-    .foot{
-        height: 769px;
-        width: 100%;
-    }
-
     .foot1-select .lang{
         font-size:12px;
         height: 37px;
@@ -316,18 +291,51 @@ option:hover {
         font-size: 16px;
         margin:0;
     }
-    .foot3{
-        height: 89px;
-        width: 100%;
-        display: grid;
-        justify-content: flex-start;
-        align-items: flex-start;
+    .foot-list ul {
+        width:150px
     }
 
-    .foot3-name{
-        padding-left:20px;
+    .foot1-select select{
+        font-size: 12px;
+        margin-left: -150px;
     }
-    .foot3-code{
-        padding-left: 20px;
+
+    .foot1-select select option{
+        font-size: 12px;
+        height: 12px;
+        line-height: 12px;
+    }
+    .foot3{
+        font-size: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .foot2-social{
+        margin-top: 80px;
+    }
+
+    .foot3-place{
+        padding-right: -160px;
+    }
+
+}
+
+@media screen and (max-width:293px){
+    .foot1-select{
+        display: flex;
+        padding-top: 80px;
+        margin-left: -280px;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+    .foot1-select i{
+        margin-right: 150px;
+        padding-bottom: 11px;
+    }
+    .foot2{
+        margin-top: 20px; 
     }
 }

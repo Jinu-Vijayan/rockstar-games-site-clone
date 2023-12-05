@@ -19,8 +19,35 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width:100%;
+}
+
+/* styling for the to top button */
+
+#store-to_top-button{
+    width:50px;
+    height: 50px;
+    background-color: var(--background-color1);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    right:0.5rem;
+    bottom:1rem;
+}
+
+#store-to_top-button a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--normal-text-color);
 }
 
 /* Styling for the header */
@@ -100,7 +127,7 @@ nav ul li i{
     align-items: center;
 }
 
-form{
+.store-header-form{
     background-color: var(--background-color2);
     display: flex;
     height: 100%;
@@ -111,11 +138,11 @@ form{
     gap:1rem;
 }
 
-form label{
+.store-header-form label{
     margin-left: 2rem;
 }
 
-form input{
+.store-header-form input{
     background-color: transparent;
     outline: none;
     border: none;
@@ -124,7 +151,7 @@ form input{
     color: var(--normal-text-color);
 }
 
-form input::placeholder{
+.store-header-form input::placeholder{
     color: #595d63;
     font-family: var(--font-type1),sans-serif;
     font-weight: bold;
@@ -141,7 +168,6 @@ form input::placeholder{
     background-color: var(--background-color1);
     position: relative;
     display: flex;
-    /* height:calc(100vh - 72px); */
     color: var(--normal-text-color);
 }
 
@@ -276,6 +302,10 @@ form input::placeholder{
     margin-bottom: 2rem;
 }
 
+.store-product-games-card-container{
+    grid-template-columns: repeat(4,1fr);
+}
+
 .store-product-card{
     border-radius: 10px;
     border: 1px solid var(--border-color1);
@@ -399,8 +429,64 @@ form input::placeholder{
     margin-top: -5rem;
 }
 
+footer{
+    background-color: var(--background-color1);
+    color: var(--normal-text-color);
+    font-family: var(--font-type1),sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 5rem;
+}
 
-@media screen and (max-width:1024px) {
+#store-footer-rockstar-eagle-logo img{
+    width:80px;
+}
+
+#store-footer-links{
+    margin-bottom: 1rem;
+}
+
+#store-footer-links ul{
+    display: flex;
+    list-style: none;
+    font-size: 0.875rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+#store-footer-links ul li a{
+    color: var(--normal-text-color);
+}
+
+#store-footer-logo-terms{
+    color: var(--text-color2);
+    font-weight: bold;
+    font-size: 0.87rem;
+}
+
+#store-footer-form {
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#store-footer-form:hover {
+    background-color: var(--border-color1);
+}
+
+#store-footer-form select{
+    background-color: transparent;
+    color: var(--normal-text-color);
+    border: none;
+}
+
+#store-footer-form select option{
+    background-color: var(--background-color2);
+}
+
+
+@media screen and (max-width:1023.5px) {
     .show-on-smaller-screen{
         display: initial;
     }
@@ -409,8 +495,83 @@ form input::placeholder{
         display: none;
     }
 
-    form{
+    .store-header-form{
         width: unset;
         background-color: transparent;
+        border: transparent;
+    }
+
+    #store-hero-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #store-hero-section-desc{
+        order:1;
+    }
+
+    #store-hero-img{
+        width: 100%;
+    }
+
+    #store-hero-section-desc{
+        width: 100%;
+    }
+
+    #store-hero-section-desc button{
+        align-self: center;
+        margin-bottom: 5rem;
+    }
+
+    .store-product-card-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .store-product-hero-section{
+        flex-direction: column;
+    }
+
+    .store-product-hero-section-desc{
+        order: 1;
+        width: 100%;
+        align-items: center;
+    }
+
+    .store-product-hero-section-image {
+        width: 100%;
+    }
+
+    .store-product-hero-section-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .store-product-hero-section-desc-bottom{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:855.5px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #store-footer-links ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:610.5px){
+    .store-product-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:396.5px) {
+    #store-hero-section-desc button {
+        width:100%;
     }
 }

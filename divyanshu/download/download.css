@@ -81,6 +81,7 @@ section{
 }
 
 .download-feature{
+    margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -100,12 +101,12 @@ section{
 .feature{
     color: #ffffff;
     font-family: "Helvetica Now Display", sans-serif;
-    margin-bottom: 30px;
+    margin-top:50px;
     font-size: 30px;
 }
 
 .download-games{
-    margin-top: 70px;
+    margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -175,7 +176,7 @@ section{
 }
 
 .download-apps{
-    margin-top: 70px;
+    margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -214,7 +215,7 @@ section{
 }
 
 .download-misce{
-    margin-top: 70px;
+    margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr 1fr;

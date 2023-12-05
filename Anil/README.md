@@ -31,20 +31,20 @@ I incorporated the [AOS (Animate On Scroll) library](https://michalsnik.github.i
 ## Screenshots
 
 **Games page**
-![Games 1-3](./games/Screenshots/games1-3.png)
-![Games 4-6](./games/Screenshots/games4-6.png)
-![Games 7-9](./games/Screenshots/games7-9.png)
-![Games 10-11](./games/Screenshots/games10-12.png)
+![Games 1-3](./games/Screenshots/games1-3.PNG)
+![Games 4-6](./games/Screenshots/games4-6.PNG)
+![Games 7-9](./games/Screenshots/games7-9.PNG)
+![Games 10-11](./games/Screenshots/games10-12.PNG)
 ![Games 12-15](./games/Screenshots/games13-15.PNG)
-![Games 16-18](./games/Screenshots/games16-18.png)
-![Games 19-21](./games/Screenshots/games19-21.png)
-![Games 22-24](./games/Screenshots/games22-24.png)
-![Games 25-27](./games/Screenshots/games25-27.png)
-![Games 28-30](./games/Screenshots/games28-30.png)
-![Games 31-33](./games/Screenshots/games31-33.png)
-![Games 34-36](./games/Screenshots/games34-36.png)
-![Games 37-39](./games/Screenshots/games37-39.png)
-![Games 40-42](./games/Screenshots/games40-42.png)
+![Games 16-18](./games/Screenshots/games16-18.PNG)
+![Games 19-21](./games/Screenshots/games19-21.PNG)
+![Games 22-24](./games/Screenshots/games22-24.PNG)
+![Games 25-27](./games/Screenshots/games25-27.PNG)
+![Games 28-30](./games/Screenshots/games28-30.PNG)
+![Games 31-33](./games/Screenshots/games31-33.PNG)
+![Games 34-36](./games/Screenshots/games34-36.PNG)
+![Games 37-39](./games/Screenshots/games37-39.PNG)
+![Games 40-42](./games/Screenshots/games40-42.PNG)
 
 ## Learning Experience
 

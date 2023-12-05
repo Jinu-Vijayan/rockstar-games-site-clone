@@ -19,8 +19,35 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width:100%;
+}
+
+/* styling for the to top button */
+
+#store-to_top-button{
+    width:50px;
+    height: 50px;
+    background-color: var(--background-color1);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    right:0.5rem;
+    bottom:1rem;
+}
+
+#store-to_top-button a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--normal-text-color);
 }
 
 /* Styling for the header */
@@ -141,7 +168,6 @@ nav ul li i{
     background-color: var(--background-color1);
     position: relative;
     display: flex;
-    /* height:calc(100vh - 72px); */
     color: var(--normal-text-color);
 }
 
@@ -274,6 +300,10 @@ nav ul li i{
     grid-template-columns: repeat(5,1fr);
     gap: 1rem;
     margin-bottom: 2rem;
+}
+
+.store-product-games-card-container{
+    grid-template-columns: repeat(4,1fr);
 }
 
 .store-product-card{
@@ -456,7 +486,7 @@ footer{
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023.5px) {
     .show-on-smaller-screen{
         display: initial;
     }
@@ -469,5 +499,79 @@ footer{
         width: unset;
         background-color: transparent;
         border: transparent;
+    }
+
+    #store-hero-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #store-hero-section-desc{
+        order:1;
+    }
+
+    #store-hero-img{
+        width: 100%;
+    }
+
+    #store-hero-section-desc{
+        width: 100%;
+    }
+
+    #store-hero-section-desc button{
+        align-self: center;
+        margin-bottom: 5rem;
+    }
+
+    .store-product-card-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .store-product-hero-section{
+        flex-direction: column;
+    }
+
+    .store-product-hero-section-desc{
+        order: 1;
+        width: 100%;
+        align-items: center;
+    }
+
+    .store-product-hero-section-image {
+        width: 100%;
+    }
+
+    .store-product-hero-section-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .store-product-hero-section-desc-bottom{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:855.5px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #store-footer-links ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:610.5px){
+    .store-product-card-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:396.5px) {
+    #store-hero-section-desc button {
+        width:100%;
     }
 }

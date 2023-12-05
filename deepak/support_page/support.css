@@ -75,18 +75,18 @@ a{
 }
 .mainhome{
     width: 94%;
-    height: 1000px;
-    margin: 3%;
-    padding: 4%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px 100px;
 }
 .home{
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 .services{
    width: 100%;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .services ul {
     display: flex;
@@ -157,6 +157,100 @@ a{
     
     box-sizing: border-box;
 }
+.support-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    height: 100%;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+.support-cards{
+    width: 100%;
+    height: 50%;
+    transition: 0.2s all;
+}
+.support-cards img{
+    width: 100%;
+}
+.support-cards:hover{
+    transform: translateY(-8px);
+}
+.showallcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.showallbutton{
+    background-color: black;
+    height: 49px;
+    width: 18%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+}
+.showallbutton i.material-symbols-outlined {
+    font-size: 44px;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: black;
+    
+}
+.showallbutton:hover{
+    opacity: 0.8;
+    transform: translateY(-15px);
 
+}
+.supportfooter{
+    width: 100%;
+    height: 100%;
+    padding: 35px 30px 80px;
+}
+.supportflex{
+    display: flex;
+    margin-bottom: 95px;
+    justify-content: space-between;
+}
+.language {
+    display: flex;
+    align-items: center;
+}
 
+.language span.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1;
+    margin-right: 7px;
+    padding: 0;
+}
+.supportlinks a{
+    font-size: 14px;
+    margin: 0px 12px;
+}.supporticons1 {
+    height: 24px;
+    display: flex;
+}
+
+.supporticons1 img,
+.supporticons1 i.fa-twitter {
+    height: 100%;
+    width: auto; /* This allows the image to maintain its aspect ratio */
+    font-size: 24px;
+    margin-inline: 15px ;
+}
+.footerlogo{
+    background: url(footerlogo.svg);
+    background-size: 100% 100%;
+    height: 42px;
+    width: 45px;
+    margin: 0 auto;
+}
 

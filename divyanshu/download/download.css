@@ -75,12 +75,16 @@ main{
 section{
     display: block;
 }
+.feature-img{
+    width: 100%;
+}
 .feature-img img{
     width: 100%;
     border-radius: 10px;
 }
 
 .download-feature{
+    width:100%;
     margin-top: 30px;
     display: grid;
     grid-auto-flow: row;
@@ -322,5 +326,11 @@ section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 5rem;
+    }
+}
+
+@media screen and (max-width:385px) {
+    main{
+        padding: 0;
     }
 }

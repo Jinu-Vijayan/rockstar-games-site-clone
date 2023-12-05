@@ -31,7 +31,7 @@ I incorporated the [AOS (Animate On Scroll) library](https://michalsnik.github.i
 ## Screenshots
 
 **Games page**
-![Games 1-3](./games/Screenshots/games1-3.PNG)
+![Games 1-3](./games/Screenshots/games.PNG)
 ![Games 4-6](./games/Screenshots/games4-6.PNG)
 ![Games 7-9](./games/Screenshots/games7-9.PNG)
 ![Games 10-11](./games/Screenshots/games10-12.PNG)

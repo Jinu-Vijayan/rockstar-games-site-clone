@@ -3,6 +3,8 @@
     padding: o;
     box-sizing: border-box;
 }
+ 
+
 body{
     background-image: url(../sign_up/assets2/bg-repeat.png);
     background-color: black;
@@ -41,7 +43,7 @@ p{
     
 }
 .Day{
-    border-color: #fcaf17;
+    border-color: #17c7fc 5px;
     width: 130px;
     margin-left: 20px;
     height:45px ;
@@ -85,3 +87,24 @@ width: 100px;
 .last p{
     color: #737373;
 }
+@media screen  and (max-width:525px){
+    body{
+        background-image: url(../sign_up/assets2/bg-repeat.png);
+        background-color: black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+    }
+    .logo{
+        overflow-clip-margin: content-box;
+    
+
+
+    
+}
+

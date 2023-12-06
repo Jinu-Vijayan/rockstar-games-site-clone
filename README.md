@@ -36,6 +36,48 @@ Welcome to our thrilling project developed as part of the Full Stack Development
 
 Feel free to explore the UI clone using either method. Due to the organization of our project, each team member's contribution is housed in a separate folder named after them.
 
+## Screen shots
+
+**Home Page**
+
+![Home page](./assets/images/home_page.png)
+
+**Games Page**
+
+![Games page](./assets/images/games_page.png)
+
+**Newswire Page**
+
+![Newswire page](./assets/images/newswire_page.png)
+
+**Videos Page**
+
+![Videos page](./assets/images/video_page.png)
+
+**Downloads Page**
+
+![Downloads page](./assets/images/downloads_page.png)
+
+**Store Page**
+
+![Store page](./assets/images/store_page.png)
+
+**Support Page**
+
+![Support page](./assets/images/support_page.png)
+
+**Get laucher Page**
+
+![Get launcher page](./assets/images/get_launcher_page.png)
+
+**Sign in Page**
+
+![Sign in page](./assets/images/sign_in_page.png)
+
+**Sign up Page**
+
+![Sign up page](./assets/images/sign_up_page.png)
+
 ## Credits
 
 **Meet the Incredible Team:**

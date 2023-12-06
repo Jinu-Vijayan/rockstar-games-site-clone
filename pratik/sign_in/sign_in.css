@@ -5,6 +5,7 @@
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
 body{
+    background-image:url(../sign_in/assets/bg-repeat.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,6 +146,8 @@ span{
 .last p{
     color: #737373;
 }
-@media screen and() {
-    
+@media only screen and (max-width: 400px) {
+    .main{
+        padding: 5rem;
+    }
 }

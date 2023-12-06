@@ -299,7 +299,7 @@ h2{
    }
 
 }
-@media screen and (max-width:324) {
+@media screen and (max-width:320) {
     #video-hero{
         flex-direction: column;
     }
@@ -308,14 +308,17 @@ h2{
         justify-content: space-between;
 
     }
+    .video-section-text{
+        font-size: 0.5rem;
+    }
    #video-hero-text-para{
         font-size: 1rem;
    }
    #video-hero-text-heading{
-    font-size: 1rem;
+    font-size: 0.4rem;
    }
    h1{
-    font-size: 0.5rem;
+    font-size: 50%;
    }
    .video-cards
    {
@@ -327,10 +330,10 @@ h2{
      width: 100%
    }
    #video-section{
-    padding: 1rem;
+    padding: 0;
    }
    .video-cards-container1{
-    width:100%;
+    width:30rem;
     
    }
 

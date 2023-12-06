@@ -1,0 +1,340 @@
+@import url(../../jinu/home/assets/fonts/helvetica_now_display/stylesheet.css);
+@import url(../../jinu/home/assets/fonts/helvetica_now_text/stylesheet.css);
+:root{
+    --background-color1:black;
+    --background-color2:#0b0b0b;
+    --button-background-color1:#fcaf17;
+    --text-color-when-hovering-on-button:black;
+    --text-color1:white;
+    --text-color2:#e8e8e8;
+    --text-color3:#939393;
+    --newswire-card-text-color1:#f9f9f9;
+    --newswire-card-text-color2:#979797;
+    --font-type1:'Helvetica Now Text';
+    --font-type2:'Helvetica Now Display';
+    --border-color1:#282828;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-color:var(--background-color2);
+    color: var(--text-color1);
+}
+
+#video-hero{
+    background-color:var(--background-color1);
+    display:flex;
+    justify-content: center;
+    color: var(--text-color1);
+    
+}
+
+#video-hero-img img{
+    width:100%;
+}
+
+#video-hero-desc{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+#video-hero-text{
+    display: flex;
+    flex-direction:column;
+    height:80%;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+#video-hero-text-para{
+    font-family: var(--font-type1),sans-serif;
+    font-weight: bold;
+    color:var(--text-color2);
+    margin-bottom: 2vh;
+    font-size:0.9375rem;
+    cursor: pointer;
+}
+
+#video-hero-text-heading{
+    font-family: var(--font-type2),sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 4vh;
+    line-height: 1;
+    cursor: pointer;
+}
+
+#video-hero-text-button{
+    padding:1.25rem 3.75rem;
+    border-radius: 0.3125rem;
+    color: var(--text-color1);
+    background-color: transparent;
+    border: 2px solid var(--text-color1);
+    font-family: var(--font-type1),sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#video-hero-text-button:hover{
+    border: 2px solid var(--button-background-color1);
+    background-color: var(--button-background-color1);
+    color: var(--text-color-when-hovering-on-button);
+}
+
+#video-hero-desc-selector-buttons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1vw;
+}
+
+#video-hero-desc-selector-buttons div{
+    width:100%;
+    height:4px;
+    background-color: var(--text-color3);
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+
+#video-hero-desc-selector-buttons #home-hero-desc-selector-button1{
+    background-color: white;
+}
+/* -----------part1------------------------------------------------ */
+
+h1{
+    color:var(--text-color1);
+    font-size: 1.6rem;
+    font-family: var(--font-type2);
+    
+}
+h4{
+    font-family: var(--font-type1);
+    font-size: 0.9rem;
+    color: var(--text-color2);
+}
+h2{
+    font-family: var(--font-type1);
+    font-size: 1.3rem;
+}
+#video-section{
+    padding: 4rem;
+}
+.video-cards-container1{
+    padding:4rem;
+    
+}
+.video-section-text{
+    display: flex;
+    justify-content: space-between;
+    padding:  1.8rem 0;
+    align-items: center;
+
+}
+
+.video-section-text a{
+    font-size: 30px;
+    width:40px;
+    cursor: pointer;
+}
+.video_icon{
+   display:flex;
+   width:15%;
+   justify-content: flex-end;
+   gap: 1.8rem;
+}
+
+.video-cards{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 2rem;
+    background-color:var(--background-color2);
+    overflow: hidden;
+}
+.image-size{
+    border:1.5px solid var(--border-color1);
+    border-radius: 10px;
+    width: 30%;
+    flex-shrink: 0;
+    /* height: 100%; */
+   
+}
+.image-size img{
+    
+    width:100%;
+}
+.textsize{
+    padding: 2rem;
+    cursor: pointer;
+    line-height: 1.6rem;
+
+}
+.image-style{
+    border:1px solid var(--background-color1)
+}
+
+/* ---------------------Mediaquery starts---------------------- */
+@media screen and (max-width:1022.5px) {
+    #video-hero{
+        flex-direction: column;
+    }
+    #video-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+   #video-hero-text-para{
+        font-size: 1rem;
+   }
+   #video-hero-text-heading{
+    font-size: 2.5rem;
+   }
+   #video-hero-desc-selector-buttons {
+        grid-template-columns: repeat(3, 8%);
+        margin-top: 2rem;
+   }
+   
+   .image-size{
+    width: 40%;
+   }
+   #video-section{
+    padding: 1rem;
+   }
+   .video-cards-container1{
+    width:100%;
+    
+   }
+
+}
+/* -----------------------*******************************------------ */
+@media screen and (max-width:768.5px) {
+    #video-hero{
+        flex-direction: column;
+    }
+    #video-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+   #video-hero-text-para{
+        font-size: 1rem;
+   }
+   #video-hero-text-heading{
+    font-size: 2.5rem;
+   }
+
+   
+   .image-size{
+    width: 80%;
+   }
+  
+}
+/* -----------------------*******************************------------ */
+@media screen and (max-width:745.5px) {
+    #video-hero{
+        flex-direction: column;
+    }
+    #video-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+   #video-hero-text-para{
+        font-size: 1rem;
+   }
+   #video-hero-text-heading{
+    font-size: 2.5rem;
+   }
+
+   
+   .image-size{
+    width: 90%;
+   }
+
+   #video-section{
+    padding: 1rem;
+   }
+   .video-cards-container1{
+    width:100%;
+    
+   }
+
+
+}
+@media screen and (max-width:416.5px) {
+    #video-hero{
+        flex-direction: column;
+    }
+    #video-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+   #video-hero-text-para{
+        font-size: 1rem;
+   }
+   #video-hero-text-heading{
+    font-size: 2.5rem;
+   }
+
+   
+   .image-size{
+    width: 95%;
+   }
+   #video-section{
+    padding: 1rem;
+   }
+   .video-cards-container1{
+    width:100%;
+    
+   }
+
+}
+@media screen and (max-width:320) {
+    #video-hero{
+        flex-direction: column;
+    }
+    #video-hero-text{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .video-section-text{
+        font-size: 0.5rem;
+    }
+   #video-hero-text-para{
+        font-size: 1rem;
+   }
+   #video-hero-text-heading{
+    font-size: 0.4rem;
+   }
+   h1{
+    font-size: 50%;
+   }
+   .video-cards
+   {
+    width: 100%;
+   }
+
+   
+   .image-size{
+     width: 100%
+   }
+   #video-section{
+    padding: 0;
+   }
+   .video-cards-container1{
+    width:30rem;
+    
+   }
+
+}

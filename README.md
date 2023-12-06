@@ -40,18 +40,18 @@ Feel free to explore the UI clone using either method. Due to the organization o
 
 **Meet the Incredible Team:**
 
-1. Jinu
-2. Deepak
-3. Harshada
+1. [Jinu](https://www.linkedin.com/in/jinu-vijayan-a3041b15a/)
+2. [Deepak](https://www.linkedin.com/in/deepuroyal30?_l=en_US)
+3. [Harshada](https://www.linkedin.com/in/harshada-patil-40b13a209/)
 4. [Anil](https://www.linkedin.com/in/kundala-anil-kumar-92052a1ba/)
-5. Divyanshu
+5. [Divyanshu](https://www.linkedin.com/in/divyanshu-pande-3a0434245/)
 6. Pratik
 
 **Mentor Extraordinaire:**
 
-- Abhay Chauhan - A heartfelt thank you for being incredibly helpful and motivating throughout our project. Your guidance has been invaluable!
+- [Abhay Chauhan](https://www.linkedin.com/in/abhay-chauhan-1751a420b/) - A heartfelt thank you for being incredibly helpful and motivating throughout our project. Your guidance has been invaluable!
 
 **Gratitude to Our Exceptional Instructors at Geekster:**
 
-- Akhil Sharma - Thank you for your exceptional teaching and clear explanations that made learning enjoyable and accessible.
-- Ankit Singh - Your guidance and effective communication have been instrumental in our understanding of the module.
+- [Akhil Sharma](https://www.linkedin.com/in/akhil-sh06/) - Thank you for your exceptional teaching and clear explanations that made learning enjoyable and accessible.
+- [Ankit Singh](https://www.linkedin.com/in/asingh88029/) - Your guidance and effective communication have been instrumental in our understanding of the module.

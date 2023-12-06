@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url(../sign_up/assets2/);
     background-color: black;
     display: flex;
     justify-content: center;

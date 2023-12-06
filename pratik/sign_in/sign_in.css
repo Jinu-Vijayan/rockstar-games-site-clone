@@ -38,11 +38,18 @@ form{
     border-color: #fcaf17;
    
 }
+
+ 
 .input-box input{
     grid-area: 2rem;
     padding:15px;
     width:450px;
+   
 }
+button:hover{
+ background-color: #e19808;
+}
+
 .input-boxs{
     padding-top: 20px;
     gap: 2rem;
@@ -137,4 +144,7 @@ span{
 }
 .last p{
     color: #737373;
+}
+@media screen and() {
+    
 }

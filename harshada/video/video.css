@@ -270,22 +270,45 @@ h2{
 
 
 }
+@media screen and (max-width:560.5px){
+    #video-hero-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #video-hero-text-para{
+        font-size: 1rem;
+    }
+    #video-hero-text-heading{
+        font-size: 1.8rem;
+    }
+    #video-hero-desc-selector-buttons{
+        justify-content: center;
+        grid-template-columns: repeat(3,20%);
+    }
+    .video-section-text>h1{
+        font-size: 1.2rem;
+     }
+    .video_icon{
+        width: 18%;
+    }
+    .video-cards-container1{
+        padding: 0;
+    }
+}
 @media screen and (max-width:416.5px) {
     #video-hero{
         flex-direction: column;
     }
-    #video-hero-text{
-        flex-direction: row;
-        justify-content: space-between;
-
-    }
+   
    #video-hero-text-para{
         font-size: 1rem;
    }
    #video-hero-text-heading{
     font-size: 2.5rem;
    }
-
+  
    
    .image-size{
     width: 95%;

@@ -43,7 +43,7 @@ Feel free to explore the UI clone using either method. Due to the organization o
 1. Jinu
 2. Deepak
 3. Harshada
-4. Anil
+4. [Anil](https://www.linkedin.com/in/kundala-anil-kumar-92052a1ba/)
 5. Divyanshu
 6. Pratik
 

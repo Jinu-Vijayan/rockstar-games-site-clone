@@ -334,3 +334,24 @@ section{
         padding: 0;
     }
 }
+
+@media screen and (max-width:320px){
+    .download-feature {
+        width: 100%;
+    }
+    .download-feature-container{
+        width: 100%;
+    }
+
+    .download-feature-container img {
+        width: 100%;
+    }
+
+    .feature-text{
+        width: 100%;
+    }
+
+    .download-rdr-text {
+        padding: 20px;
+    }
+}

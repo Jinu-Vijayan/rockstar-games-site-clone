@@ -111,6 +111,20 @@ The `download.html` page gives users an immense experience by allowing users to 
 
 - Gained confidence in web development skills.
 
+## Screenshot
 
+**Download Page**
 
+![Main Section Of Download Page](./download/Images/Screenshot/Main-section-of-download-page.png)
 
+![Featured Section Of Download Page](./download/Images/Screenshot/Featured-section-of-download-page.png)
+
+![Games Section Of Download Page](./download/Images/Screenshot/Games-section-of-download-page.png)
+
+![Apps Section Of Download Page](./download/Images/Screenshot/Apps-section-of-download-page.png)
+
+![Mice Section Of Download Page](./download/Images/Screenshot/Mice-section-of-download-page.png)
+
+**Footer Page**
+
+![Footer Section Page](./footer/assest/Footer-page.png)

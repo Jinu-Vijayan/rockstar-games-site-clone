@@ -72,11 +72,11 @@ Feel free to explore the UI clone using either method. Due to the organization o
 
 **Sign in Page**
 
-![Sign in page](./assets/images/sign_in_page.png)
+![Sign in page](./assets/images/sign_up_page.png)
 
 **Sign up Page**
 
-![Sign up page](./assets/images/sign_up_page.png)
+![Sign up page](./assets/images/sign_in_page.png)
 
 ## Credits
 

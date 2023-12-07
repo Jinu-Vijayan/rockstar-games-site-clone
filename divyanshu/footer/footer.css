@@ -83,8 +83,8 @@ option {
     line-height: 20px;
 }
 
-option:hover {
-    background-color: white;
+option:nth-child(1):hover {
+    background-position-y: white;
 }
 .foot2{
     display: flex;

@@ -64,13 +64,13 @@ main{
     border-radius: 6px;
     transition: all 0.2s ease 0s;
     margin: 40px 0;
+    cursor: pointer;
 }
 
 .download-rdr-text button:hover{
     background-color: #FCAF17;
     color: #000000;
     border: none;
-    
 }
 section{
     display: block;

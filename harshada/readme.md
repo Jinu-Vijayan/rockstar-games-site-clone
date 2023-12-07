@@ -68,8 +68,19 @@
 
 ## Screenshots
 
-*Insert screenshots here to showcase your project.*
-
-Make sure to clone the repository and open `vedio.html` to explore the Rockstar Games Videos Section!
-
-Enjoy the journey of game exploration with Rockstar Games! 🚀🎮
+![Hero-Section](./video/assets/Screenshot%201.png)
+<br>
+<br>
+![Hero-Section](./video/assets/Screenshot%20%202.png)
+<br>
+<br>
+![Hero-Section](./video/assets/Screenshot%20%203.png)
+<br>
+<br>
+![Hero-Section](./video/assets/Screenshot%204.png)
+<br>
+<br>
+![Hero-Section](./video/assets/Screenshot%205.png)
+<br>
+<br>
+![Hero-Section](./video/assets/Screenshot%206.png)

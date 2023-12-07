@@ -87,7 +87,7 @@ Feel free to explore the UI clone using either method. Due to the organization o
 3. [Harshada](https://www.linkedin.com/in/harshada-patil-40b13a209/)
 4. [Anil](https://www.linkedin.com/in/kundala-anil-kumar-92052a1ba/)
 5. [Divyanshu](https://www.linkedin.com/in/divyanshu-pande-3a0434245/)
-6. Pratik
+6. [Pratik](https://www.linkedin.com/in/pratik-magar-6b09782a3/)
 
 **Mentor Extraordinaire:**
 

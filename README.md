@@ -36,22 +36,64 @@ Welcome to our thrilling project developed as part of the Full Stack Development
 
 Feel free to explore the UI clone using either method. Due to the organization of our project, each team member's contribution is housed in a separate folder named after them.
 
+## Screen shots
+
+**Home Page**
+
+![Home page](./assets/images/home_page.png)
+
+**Games Page**
+
+![Games page](./assets/images/games_page.png)
+
+**Newswire Page**
+
+![Newswire page](./assets/images/newswire_page.png)
+
+**Videos Page**
+
+![Videos page](./assets/images/video_page.png)
+
+**Downloads Page**
+
+![Downloads page](./assets/images/downloads_page.png)
+
+**Store Page**
+
+![Store page](./assets/images/store_page.png)
+
+**Support Page**
+
+![Support page](./assets/images/support_page.png)
+
+**Get laucher Page**
+
+![Get launcher page](./assets/images/get_launcher_page.png)
+
+**Sign in Page**
+
+![Sign in page](./assets/images/sign_up_page.png)
+
+**Sign up Page**
+
+![Sign up page](./assets/images/sign_in_page.png)
+
 ## Credits
 
 **Meet the Incredible Team:**
 
-1. Jinu
-2. Deepak
-3. Harshada
-4. Anil
-5. Divyanshu
-6. Pratik
+1. [Jinu](https://www.linkedin.com/in/jinu-vijayan-a3041b15a/)
+2. [Deepak](https://www.linkedin.com/in/deepuroyal30?_l=en_US)
+3. [Harshada](https://www.linkedin.com/in/harshada-patil-40b13a209/)
+4. [Anil](https://www.linkedin.com/in/kundala-anil-kumar-92052a1ba/)
+5. [Divyanshu](https://www.linkedin.com/in/divyanshu-pande-3a0434245/)
+6. [Pratik](https://www.linkedin.com/in/pratik-magar-6b09782a3/)
 
 **Mentor Extraordinaire:**
 
-- Abhay Chauhan - A heartfelt thank you for being incredibly helpful and motivating throughout our project. Your guidance has been invaluable!
+- [Abhay Chauhan](https://www.linkedin.com/in/abhay-chauhan-1751a420b/) - A heartfelt thank you for being incredibly helpful and motivating throughout our project. Your guidance has been invaluable!
 
 **Gratitude to Our Exceptional Instructors at Geekster:**
 
-- Akhil Sharma - Thank you for your exceptional teaching and clear explanations that made learning enjoyable and accessible.
-- Ankit Singh - Your guidance and effective communication have been instrumental in our understanding of the module.
+- [Akhil Sharma](https://www.linkedin.com/in/akhil-sh06/) - Thank you for your exceptional teaching and clear explanations that made learning enjoyable and accessible.
+- [Ankit Singh](https://www.linkedin.com/in/asingh88029/) - Your guidance and effective communication have been instrumental in our understanding of the module.

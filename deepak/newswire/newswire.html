@@ -14,8 +14,8 @@
 </head>
 
 <body>
-   <div id="home-navbar"></div>
-   <script src="../../harshada/navbar.js"></script>
+    <div id="home-navbar"></div>
+    <script src="../../harshada/navbar.js"></script>
     <main>
         <div class="newswire-firstsection">
             <div class="newswire-mainlogo">
@@ -28,6 +28,13 @@
                     <h5 class="Trailertext">TRAILER 1. TUESDAY, DECEMBER 5. 9AM ET.</h5>
                 </div>
             </div>
+        </div>
+        <!--  -->
+
+        <div data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <video id="autoplayVideo" controls width="100%" height="600" muted>
+                <source src="Grand Theft Auto VI Trailer 1 (1080p).mp4" type="video/mp4">
+            </video>
         </div>
         <!-- 1st row -->
         <div class="newswire-grid">
@@ -325,7 +332,10 @@
     <script>
         AOS.init();
     </script>
-    
+    <script>
+        document.getElementById('autoplayVideo').autoplay = true;
+    </script>
+
 
 </body>
 

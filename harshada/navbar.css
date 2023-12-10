@@ -14,13 +14,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
-    
-    
+    list-style: none;    
 }
+
 body{
     width: 100%;
 }
+
 .navbar_navbar{
     display: flex;
     background-color: var(--background-color);
@@ -64,11 +64,16 @@ body{
     font-family: "Helvetica Now Display", sans-serif;
     
 }
+
 .navbar_nav-list li a{
     text-decoration: none;
     color: var(--font-color1);
     font-family: "Helvetica Now Display",sans-serif;
 }
+.navbar_nav-list li a:hover{
+    color:white;
+}
+
 
 .navbar_nav-list li img{
     padding-top: 5px;

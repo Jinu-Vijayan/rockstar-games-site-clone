@@ -13,19 +13,12 @@ body{
     background-color: black;
 }
 .img{
-    text-align: center;
+    justify-content: center;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
-form{
-    margin-left: 15%;
- width: 500px;
- height: 300px;   
- background-color: white;
- 
 
-}
 .login{
     display: flex;
     justify-content: space-between;
@@ -34,17 +27,35 @@ form{
     padding:20px ;
 }
 .input-box{
-    gap: 2rem;
+    /* gap: 2rem; */
     margin-left: 18px;
     border-color: #fcaf17;
    
 }
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    
+}
+.main .wrapper{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 
+}
+
+form{
+    width: 45%;
+    background-color: white;
+    margin: auto;
+   }
  
 .input-box input{
-    grid-area: 2rem;
     padding:15px;
-    width:450px;
+    width:80%;
    
 }
 button:hover{
@@ -57,13 +68,13 @@ button:hover{
     margin-left: 18px;
 }
 .input-boxs input{
-    grid-area: 2rem;
     padding:15px;
-    width:450px;
+    width:80%;
 }
 .keep{
     color: black;
-    padding:20px ;
+    padding:10px ;
+    text-align: left;
 
 }
 .keep input{
@@ -73,16 +84,18 @@ button:hover{
     color: #707070;
 }
 .login{
-    padding-left: 18px;
-    padd
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-
-span{
-    padding-left: 100px;
-}
-
 .login a{
+    padding-left: 10px;
+    width:70%;
+    text-align: left;
     color: #717171;
+}
+.button-content{
+    margin-bottom: 15px;
 }
 .btn{
     background-color: #fcaf17;
@@ -99,9 +112,10 @@ span{
 .using{
     margin-top: 20px;
     background-color: white;
-    width: 500px;
+    width: 45%;
     height: 100px;
-    margin-left: 15%;
+    margin:auto;
+    margin-top: 20px;
     
 }
 .box-2{
@@ -109,34 +123,53 @@ span{
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
     color: #737373;
+    height: 100%;
+    width: 100%;
+    
+}
+.box-2 p{
+    font-size: 20px;
+    padding-left: 15px;
+
+}
+.box-2 span{
+    align-items: center;
+    
 }
 
 .img1{
-    margin-top: 3px;
     width: 70px;
     height: 70px;
+    border-radius: 50%;
 
 }
 .img2{
-   
-
-     
-    width: 85px;
-    height: 85px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
 }
-.box-2 span{
 
-}
 .not{
     color: aliceblue;
-    margin-left: 35%;
+   width: 100%;
+   justify-content: center;
+}
+.notcontent{
+    display: flex;
+    justify-content: center;
+    
+}
+.notcontent p{
+    padding-right: 5px;
+
 }
 .not a{
     color: #facf17;
 }
 .last{
+    display: flex;
+    justify-content: center;
     color: aliceblue;
 }
 .last a{
@@ -146,8 +179,31 @@ span{
 .last p{
     color: #737373;
 }
-@media only screen and (max-width: 400px) {
-    .main{
-        padding: 5rem;
+@media screen and (max-width:768px) {
+    form{
+        width: 70%;
+    }
+    .using{
+        width: 70%;
+    }
+    .last{
+        text-align: center;
+}
+}
+
+
+@media screen and (max-width:549px) {
+    form{
+        width: 97%;
+        padding: 0px 3%;
+    }
+    .using{
+        width: 97%;
+        padding: 0px 3%;
+    }
+    .last{
+        text-align: center;
+       font-size: 12px;
+       padding: 5px 2px;
     }
 }
